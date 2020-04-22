@@ -1,0 +1,14 @@
+.play-next-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-next-container a {
+    display: block;
+    background: #c50e1f;
+    padding: 5px;
+    margin: 10px 10px;
+    color: white;
+}
