@@ -1,24 +1,29 @@
 {
-    "modules": {
-        "StochServSS2020": {
-            "regexp": "(\\d+):",
-            "groupIdx": 1,
-            "base": 1
-        },
-        "[SoSe20] PyML": {
-            "regexp": "(\\d+)",
-            "groupIdx": 1,
-            "base": 1
-        },
-        "[SoSe 2020] Algtheo": {
-            "regexp": "(\\d+)",
-            "groupIdx": 1,
-            "base": 1
-        },
-        "[SoSe20] CA": {
-            "regexp": "- (\\d+)",
-            "groupIdx": 1,
-            "base": 1
-        }
+  "modules": {
+    "StochServSS2020": {
+      "regexp": "(\\d+):",
+      "groupIdx": 1,
+      "base": 1
+    },
+    "[SoSe20] PyML": {
+      "regexp": "(\\d+)",
+      "groupIdx": 1,
+      "base": 1
+    },
+    "[SoSe 2020] Algtheo": {
+      "regexp": "(\\d+)",
+      "groupIdx": 1,
+      "base": 1
+    },
+    "[SoSe20] CA": {
+      "regexp": "- (\\d+)",
+      "groupIdx": 1,
+      "base": 1
+    },
+    "SoSe20-ReSyst": {
+      "regexp": "-(\\d+)",
+      "groupIdx": 1,
+      "base": 1
     }
+  }
 }
