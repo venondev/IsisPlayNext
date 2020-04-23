@@ -5,8 +5,6 @@ import config from "./config.json"
 
 let currentPlaylist = [];
 
-const SET_PLAYLIST = "SET_PLAYLIST";
-
 const getIdx = (title, {
     regexp,
     groupIdx = 1,
@@ -33,7 +31,7 @@ const setPlaylist = (playlist, module) => {
 const getNext = (currTitle, module) => {
     if (config.modules[module]) {
         const idx = getIdx(currTitle, config.modules[module]);
-        return idx && currentPlaylist[idx + 1];
+        if (idx !== undefined) return currentPlaylist[idx + 1];
     }
 }
 
